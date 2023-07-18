@@ -19,11 +19,11 @@ spec:
         - containerPort: 3000
         resources:
           limits:
-            cpu: "0.5"
-            memory: "500Mi"
+            cpu: "0.2"
+            memory: "300Mi"
           requests:
-            cpu: "0.5"
-            memory: "250Mi"
+            cpu: "0.1"
+            memory: "150Mi"
         livenessProbe:
           httpGet:
             path: /
