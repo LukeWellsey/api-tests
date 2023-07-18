@@ -7,9 +7,9 @@ on:
 
 env:
   PROJECT_ID: ${{ secrets.GKE_PROJECT }}
-  GKE_CLUSTER: cluster-1    # Add your cluster name here. test
-  GKE_ZONE: us-central1-c   # Add your cluster zone here.
-  DEPLOYMENT_NAME: luke-api # Add your deployment name here.
+  GKE_CLUSTER: cit262team    # Add your cluster name here.
+  GKE_ZONE: us-west1-c   # Add your cluster zone here.
+  DEPLOYMENT_NAME: api-tests # Add your deployment name here.
   IMAGE: luke-api
 
 jobs:

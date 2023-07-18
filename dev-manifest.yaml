@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: luke-api
+  name: api-tests
 spec:
   replicas: 1
   selector:
